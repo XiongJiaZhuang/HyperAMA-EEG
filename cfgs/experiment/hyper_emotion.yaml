@@ -1,0 +1,10 @@
+# @package _global_
+log:
+  run: 202
+  exp_name: hyper_emotion
+train:
+  contrastive:
+    geometry: hyperbolic
+    scales:
+      emotion:
+        enabled: true

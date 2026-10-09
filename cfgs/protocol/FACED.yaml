@@ -1,0 +1,12 @@
+# @package _global_
+# FACED source protocol; public minimum epochs and stopping patience are 5.
+train:
+  max_epochs: 80
+  min_epochs: 5
+  patience: 5
+  sampler_times: 1
+  conf_temp: 0.1
+  probe_loss_weight: 2
+mlp:
+  lr: 0.0002
+  max_epochs: 30

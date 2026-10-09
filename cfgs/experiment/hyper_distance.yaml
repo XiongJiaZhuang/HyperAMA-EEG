@@ -1,0 +1,10 @@
+# @package _global_
+log:
+  run: 201
+  exp_name: hyper_distance
+train:
+  contrastive:
+    geometry: hyperbolic
+    scales:
+      emotion:
+        enabled: false
